@@ -39,21 +39,13 @@ class TestClass
     /**
      * @param array $x
      */
-    private function arrayHint(array $x)
-    {
-    }
+    
 
-    private function classHint(TestClass $x)
-    {
-    }
+    
 
-    private function ref(&$x)
-    {
-    }
+    
 
-    private function defaultMethod($x = 1234)
-    {
-    }
+    
 
     final protected static function &mix(array &$x, TestClass $y = null, $z = array(1, 2, 3), $_ = 'string')
     {

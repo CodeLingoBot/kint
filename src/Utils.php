@@ -36,9 +36,7 @@ final class Utils
     /**
      * @codeCoverageIgnore
      */
-    private function __construct()
-    {
-    }
+    
 
     /**
      * Turns a byte value into a human-readable representation.
